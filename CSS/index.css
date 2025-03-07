@@ -1,0 +1,106 @@
+body {
+    background-image: url(../img/robotics.jpg);
+}
+@font-face {
+    font-family: Font1;
+    src: url(../fonts/androidnation.ttf);
+}
+.laptop_wrapper {
+    position: relative;
+    height: 600px;
+    width: 900px;
+    margin: auto;
+}
+.laptop_img {
+    height: 100%;
+    width: auto;
+}
+#laptop_screen {
+    position: absolute;
+    height: 403px;
+    width: 718px;
+    background-color: rgba(217, 239, 252, 0.8);
+    top: 25px;
+    left: 91px; 
+}
+#icon_user {
+    width: 38px;
+    margin-left: 340px;
+    margin-top: 7px;
+}
+p {
+    text-transform: uppercase;
+    font-family: Font1;
+}
+h1 {
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: Font1;
+}
+b {
+    text-transform: uppercase;
+    font-family: Font1;
+}
+#input_wrapper {
+    margin-top: 35px;
+}
+.input_box {
+    margin-left: 10px;
+    margin-top: 20px;
+    position: relative;
+    display: inline-block; 
+}
+.input_properties {
+    height: 24px;
+    width: 155px;
+    border: solid #66ccff 2px;
+}
+.label_input_box {
+    color: #008080;
+    position: absolute;
+    bottom: 35px;
+    text-transform: uppercase;
+    font-family: Font1;
+    font-size: 12px;
+}
+input::placeholder {
+    color: #009ccc;
+}
+input:focus {
+    background-color: #ccffff;
+}
+.input_radio {
+color: #3090a0;
+font-size: 12px;
+}
+.label_input_radio {
+    font-family: Font1;
+    text-transform: uppercase;
+    color: #008080;
+    position: absolute;
+    bottom: 30px;
+}
+.input_checkbox {
+    position: absolute;
+    bottom: -18px;
+    left: 175px;
+    width: 300px;
+}
+.input_radio_wrapper {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+}
+.button_wrapper {
+    position: absolute;
+    bottom: 5px;
+    right: 300px;
+}
+.button_reg {
+    background-color: #008080;
+    font-family: Font1;
+    color: white;
+    height: 30px;
+    width: 125px;
+}
